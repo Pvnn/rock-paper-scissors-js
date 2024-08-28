@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+button{
+  cursor: pointer;
+}
+.rock-button, .paper-button, .scissors-button{
+  border-radius: 70px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 10px;
+  border: 3px solid white;
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+}
+.reset-button,
+.auto-play-button{
+  padding: 6px 10px 6px 10px;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.score{
+  font-size: 13px;
+  margin-top: 60px;
+}
+.confirmation-line{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+}
+.yes-button,
+.no-button{
+  padding: 5px 15px;
+}
